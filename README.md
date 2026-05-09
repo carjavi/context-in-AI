@@ -22,32 +22,6 @@
 - [Links](#links)
 - [OpenCode + context for AI agents](#opencode--context-for-ai-agents)
   - [AGENTS.MD en los Chat LLM](#agentsmd-en-los-chat-llm)
-    - [Fecha](#fecha)
-    - [Copyright](#copyright)
-    - [Versionado](#versionado)
-    - [Librerías](#librerías)
-  - [Comentarios por lenguaje](#comentarios-por-lenguaje)
-- [Estándares por Lenguaje](#estándares-por-lenguaje)
-  - [Python](#python)
-    - [Arquitectura recomendada](#arquitectura-recomendada)
-    - [APIs](#apis)
-    - [Automatización y comunicaciones](#automatización-y-comunicaciones)
-  - [JavaScript / Node.js](#javascript--nodejs)
-  - [C / C++](#c--c)
-- [Sistemas Embebidos](#sistemas-embebidos)
-  - [FreeRTOS](#freertos)
-  - [Memoria](#memoria)
-  - [Logging](#logging)
-  - [Hardware](#hardware)
-  - [Protocolos frecuentes](#protocolos-frecuentes)
-  - [Testing](#testing)
-- [APIs y Seguridad](#apis-y-seguridad)
-  - [APIs](#apis-1)
-  - [Seguridad](#seguridad)
-- [Docker](#docker)
-- [UI](#ui)
-  - [Frontend](#frontend)
-  - [Backend](#backend)
 
 <br>
 
@@ -620,18 +594,18 @@ Todo archivo generado o modificado debe incluir un bloque de metadata al inicio 
 ### Autor
 ```text
 @author: Carlos Briceño <carjavi@hotmail.com>
-```
+
 
 ### Fecha
 Formato:
 ```text
 dd-mm-aaaa
-```
+
 
 ### Copyright
 ```text
 @copyright: Copyright (c) 2026 www.carjavi.com
-```
+
 
 ### Versionado
 Usar versionado incremental:
@@ -655,12 +629,12 @@ Ejemplo:
 @library:
 - pip install pyserial
 - npm install mqtt
-```
+
 
 Si no existen dependencias:
 ```text
 @library: No external dependencies
-```
+
 
 ## Comentarios por lenguaje
 
