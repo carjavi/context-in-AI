@@ -825,6 +825,52 @@ Todos los servicios deben poder ejecutarse en Docker.
 ## Backend
 - Node.js
 
+---
+
+# Investigación y Referencias
+
+- Antes de generar ejemplos de código, revisar primero:
+  - documentación interna ubicada en el directorio `context`
+  - ejemplos existentes del proyecto
+  - patrones ya utilizados en el código base
+
+- Si la información no existe o es insuficiente:
+  - buscar proyectos similares en:
+    - GitHub
+    - documentación oficial
+    - repositorios open source relevantes
+    - ejemplos oficiales de librerías/frameworks
+
+- Priorizar referencias:
+  - mantenidas recientemente
+  - con buena documentación
+  - con arquitectura limpia
+  - usadas ampliamente por la comunidad
+  - compatibles con el stack del proyecto
+
+- Al generar ejemplos complejos o arquitecturas nuevas:
+  - incluir una sección final llamada `Referencias`
+  - agregar links relevantes utilizados como inspiración técnica
+
+## Formato de referencias
+
+```text
+Referencias:
+- https://github.com/espressif/esp-idf
+- https://github.com/micropython/micropython
+- https://github.com/fastapi/fastapi
+
+
+## Reglas adicionales
+
+- Usar referencias como guía técnica o arquitectónica.
+- Adaptar siempre el código al contexto del proyecto actual.
+- Priorizar documentación oficial sobre blogs externos.
+- Si existen múltiples enfoques:
+  - explicar brevemente ventajas y desventajas.
+- Cuando sea posible:
+  - indicar cuál referencia es la más recomendable.
+
 ```
 
 <br>
