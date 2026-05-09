@@ -28,7 +28,7 @@ VERBOSE = args.verbose
 # =========================================================
 
 INPUT_DIR = Path("documents")
-OUTPUT_DIR = Path("markdowns")
+OUTPUT_DIR = Path("context")
 
 OCR_LANGS = "spa+eng"
 

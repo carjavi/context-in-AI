@@ -63,9 +63,11 @@ Con este proyecto vamos a poder convertir cualquier documento a .md para darle c
 * Luego convertirlo con markitdown a .md
 
 ### Features  
-* Directorio de entrada de documento: ```documents```
-* Directorio de Salida: ```markdowns```
+* Directorio de entrada de documentos: ```documents```
+* Directorio de Salida: ```context```
 * Comando Python: ```create-context.py```
+  
+La carpeta de salida se copia luego en el proyecto a trabajar.
 
 ### Install Project:
 
@@ -162,7 +164,7 @@ VERBOSE = args.verbose
 # =========================================================
 
 INPUT_DIR = Path("documents")
-OUTPUT_DIR = Path("markdowns")
+OUTPUT_DIR = Path("context")
 
 OCR_LANGS = "spa+eng"
 
